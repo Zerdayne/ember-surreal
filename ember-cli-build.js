@@ -14,7 +14,7 @@ module.exports = function (defaults) {
           {
             module: tailwind,
             options: {
-              config: './app/styles/tailwind.config.js',
+              config: './app/styles/tailwind.config.ts',
             },
           },
           require('autoprefixer'),
